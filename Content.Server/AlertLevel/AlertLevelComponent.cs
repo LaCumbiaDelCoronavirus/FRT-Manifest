@@ -1,9 +1,7 @@
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
 namespace Content.Server.AlertLevel;
-#if SUBMODULE_DEFINED
-using Content.Manifest.Shared;
-#endif
+
 /// <summary>
 /// Alert level component. This is the component given to a station to
 /// signify its alert level state.

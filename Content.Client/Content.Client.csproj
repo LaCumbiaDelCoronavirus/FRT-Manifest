@@ -24,7 +24,7 @@
 
   <!-- MNET14 -->
   <ItemGroup Condition="Exists('../Manifest/Content.Manifest.Client')">
-    <ProjectReference Include="../Manifest/Content.Manifest.Client/Content.Manifest.Client.csproj" />
+    <None Include="../Manifest/Content.Manifest.Client/Content.Manifest.Client.csproj" />
   </ItemGroup>
 
   <ItemGroup>

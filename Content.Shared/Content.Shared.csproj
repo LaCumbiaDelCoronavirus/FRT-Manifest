@@ -19,7 +19,7 @@
 
   <!-- MNET14 -->
   <ItemGroup Condition="Exists('../Manifest/Content.Manifest.Shared')">
-    <ProjectReference Include="../Manifest/Content.Manifest.Shared/Content.Manifest.Shared.csproj" />
+    <None Include="../Manifest/Content.Manifest.Shared/Content.Manifest.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
